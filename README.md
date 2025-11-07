@@ -5,8 +5,8 @@ Enterprise-grade web application security checklist based on OWASP Top 10 (2021)
 ## Usage
 
 1. Review `SECURITY_CHECKLIST.md` for guidance on OWASP Top 10 security controls.
-2. Use `tools/` configs to scan your codebase:
-   - `semgrep.yml` for SAST
+2. Use `tools/` configs to scan your codebase - SAST (Static Application Security Testing) :
+   - `semgrep.yml` for JavaScript
    - `bandit_config.yaml` for Python
 3. Refer to `examples/` for demo output from scans.
 4. Integrate CI workflow in `.github/workflows/security.yml` for automated security checks on PRs.
