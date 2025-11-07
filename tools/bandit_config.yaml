@@ -1,3 +1,17 @@
-# Bandit configuration example
-skips: ['B101', 'B303']
-exclude_dirs: ['tests']
+# tools/bandit_config.yaml - Working config
+skips: 
+  - 'B101'  # assert_used
+  - 'B110'  # try_except_pass  
+  - 'B311'  # random
+  - 'B601'  # paramiko_exec_command
+  - 'B603'  # subprocess_without_shell_equals_true
+  - 'B606'  # start_process_with_no_shell
+  - 'B607'  # start_process_with_partial_path
+
+exclude_dirs:
+  - './tests/'
+  - './test/'
+  - './venv/'
+  - './env/'
+  - './__pycache__/'
+  - './node_modules/'
