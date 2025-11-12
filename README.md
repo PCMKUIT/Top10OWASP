@@ -1,4 +1,4 @@
-# Top10OWASP
+# Top10OWASP - SAST
 
 Enterprise-grade web application security checklist based on OWASP Top 10 (2021), designed for secure development, code review, audit, and vulnerability management in corporate environments.
 
